@@ -1,0 +1,27 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Roboto', sans-serif; }
+
+header { padding-left: 10px; }
+
+header .create-column { margin-bottom: 20px; }
+
+.column-container { width: 100%; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.column-container > div { -ms-flex: 1; flex: 1; float: left; }
+
+.panel { min-height: 480px; background-color: #f4f4f4; margin-bottom: 0; }
+
+.panel .panel-heading { text-align: center; position: relative; }
+
+.panel .panel-heading .btn-delete { position: absolute; top: 10px; right: 10px; color: #000; }
+
+.panel .panel-body { padding: 0; }
+
+.panel .panel-body .add-card { margin: 20px 10px; }
+
+.panel .panel-body ul { list-style-type: none; min-height: 300px; }
+
+.panel .panel-body ul .card { background-color: #f0ffea; width: calc(50% - 15px); min-height: 50px; display: -ms-flexbox; display: flex; float: left; margin-left: 10px; margin-bottom: 10px; padding: 5px; box-shadow: 1px 1px 5px #444444; }
+
+.panel .panel-body ul .card p { -ms-flex: 12; flex: 12; margin-bottom: 0; }
+
+.panel .panel-body ul .card .btn-delete { -ms-flex: 1; flex: 1; height: 25px; padding: 2px 6px; }
