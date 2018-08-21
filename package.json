@@ -32,5 +32,9 @@
     "nu-html-checker": "^0.1.0",
     "onchange": "^4.1.0",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "lodash.update": "^4.10.2",
+    "superagent": "^3.8.3"
   }
 }
